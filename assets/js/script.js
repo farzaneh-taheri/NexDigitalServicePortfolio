@@ -286,3 +286,42 @@ sliderButtons.forEach((btn, index) => {
     });
   });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  function toggleMenu() {
+    const nav = document.getElementById("mobileNav");
+    nav.classList.toggle("show");
+  }
