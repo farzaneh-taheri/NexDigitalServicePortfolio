@@ -1411,16 +1411,15 @@ body {
 
 /* موبایل */
 @media (max-width: 480px) {
-  /* کل صفحه بدون اسکرول افقی */
   body {
     overflow-x: hidden;
   }
 
-  /* هدر */
   .container.header {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    padding: 10px;
   }
 
   .navbar {
@@ -1438,16 +1437,31 @@ body {
     display: flex;
   }
 
-  /* عنوان‌ها */
-  .contact-title,
-  .contact-title-footer {
-    font-size: 24px;
-    letter-spacing: 5px;
-    margin: 30px 0;
+  .hero-container-about {
+    flex-direction: column;
+    align-items: center;
   }
 
+  .hero-text-about h1 {
+    font-size: 32px;
+    text-align: center;
+  }
 
-  /* فوتر */
+  .image-bubble-about {
+    width: 90%;
+    height: auto;
+  }
+
+  .center-image img {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .formula-box {
+    margin-left: 0;
+    padding: 10px;
+  }
+
   .footer {
     flex-direction: column;
     gap: 20px;
@@ -1457,7 +1471,6 @@ body {
 
   .footer-logo img {
     width: 160px;
-    height: auto;
   }
 
   .footer-icons img {
@@ -1465,24 +1478,170 @@ body {
     height: 24px;
   }
 
+  .testimonial-loop {
+    flex-direction: column;
+  }
+
+  .clients-image-bottom {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .shape {
+    display: block;
+    width: 80px;
+    height: auto;
+    margin: 20px auto;
+  }
+
+    .grid-layout {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px 10px;
+    gap: 20px;
+  }
+
+  .image-bottom-left,
+  .image-top-right {
+    position: static;
+    width: 100%;
+    text-align: center;
+  }
+
+  .image-bottom-left img,
+  .image-top-right img {
+    max-width: 100%;
+    height: auto;
+    position: static;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .box-shadow-bottom-left {
+    margin-bottom: 10px;
+  }
+  .image-top-left {
+    display: none !important;
+  }
+
+.image-bubble-about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
 }
 
+.hero-text-about h1 {
+  font-size: 28px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.title-nex {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.title-nex h1 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+.container-intro {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.intro-box {
+  text-align: center;
+}
+
+.intro-box h2 {
+  font-size: 20px;
+}
+
+.intro-box p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+.shape {
+  display: block;
+  width: 60px;
+  height: auto;
+  margin: 10px auto;
+}
+
+.center-image img {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+.formula-box {
+  width: 100%;
+  padding: 20px;
+  text-align: left;
+}
+
+.formula-box h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.formula-box ul {
+  padding-left: 20px;
+}
+
+.formula-box li {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+  .formula-box ul li {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+
+}
 
 /* فبلت‌ها و موبایل‌های بزرگ */
 @media (min-width: 481px) and (max-width: 767.9px) {
-  
-    .navbar {
+
+  body {
+    overflow-x: hidden;
+  }
+
+      img {
+        width: 100%;
+        height: auto;
+    }
+  /* Navbar */
+  .navbar {
     display: none;
   }
 
   .hamburger {
     display: block;
+    font-size: 28px;
+    margin-left: auto;
+    margin-right: 20px;
   }
 
   #mobileNav.show {
     display: flex;
   }
 
+  /* Header */
   .container.header {
     flex-direction: column;
     align-items: center;
@@ -1490,12 +1649,158 @@ body {
     padding: 10px 20px;
   }
 
+  /* About section */
+  .hero-container-about {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-text-about h1 {
+    font-size: 36px;
+    line-height: 1.4;
+  }
+
+  .image-bubble-about {
+    width: 90%;
+    height: auto;
+  }
+
+  /* Title section */
+  .title-nex {
+ margin: 0 auto;
+  }
+
+  /* Intro section */
+  .container-intro {
+    padding: 20px 10px;
+  }
+
+  .intro-box h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .intro-box p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  .shape {
+    display: block;
+    width: 90px;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .center-image img {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  /* Formula Box */
+  .formula-box {
+    padding: 10px;
+    margin-left: 0;
+  }
+
+  .formula-box h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .formula-box ul {
+    padding-left: 20px;
+  }
+
+  .formula-box ul li {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+  }
+
+      .title-nex h1 {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+  /* Grid Layout */
+
+   .grid-layout {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px 10px;
+    gap: 20px;
+  }
+
+  .image-bottom-left,
+  .image-top-right {
+    position: static;
+    width: 100%;
+    text-align: center;
+  }
+
+  .image-bottom-left img,
+  .image-top-right img {
+    max-width: 100%;
+    height: auto;
+    position: static;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .box-shadow-bottom-left {
+    margin-bottom: 10px;
+  }
+  .image-top-left {
+    display: none !important;
+  }
+
+.image-bubble-about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
 }
+
+  /* Footer */
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    padding: 30px 10px;
+  }
+
+  .footer-logo img {
+    width: 160px;
+  }
+
+  .footer-icons img {
+    width: 24px;
+    height: 24px;
+  }
+
+  /* Testimonial section */
+  .testimonial-loop {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .clients-image-bottom {
+    width: 100%;
+    height: auto;
+  }
+}
+
 
 /* تبلت عمودی */
 @media (min-width: 768px) and (max-width: 1023.9px) {
-
-  /* هدر */
+/* هدر */
   .container.header {
     flex-direction: column;
     align-items: center;
@@ -1517,22 +1822,539 @@ body {
     display: flex;
   }
 
+  /* hero text and image */
+  .hero-container-about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-text-about h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .image-bubble-about {
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .hero-image {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  .hero-image img {
+    width: 80%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  /* title section */
+  .title-nex h1 {
+    font-size: 28px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .title-nex {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  /* intro box */
+  .container-intro {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .intro-box h2 {
+    font-size: 24px;
+  }
+
+  .intro-box p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .formula-box h2 {
+    font-size: 22px;
+  }
+
+  .formula-box ul {
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  /* تصاویر shape و center-image */
+  .shape {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+  }
+
+  .center-image img {
+    width: 80%;
+    margin: 30px auto;
+    display: block;
+  }
+
+  /* Grid Layout */
+
+   .grid-layout {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px 10px;
+    gap: 20px;
+  }
+
+  .image-bottom-left,
+  .image-top-right {
+    position: static;
+    width: 100%;
+    text-align: center;
+  }
+
+  .image-bottom-left img,
+  .image-top-right img {
+    max-width: 100%;
+    height: auto;
+    position: static;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .box-shadow-bottom-left {
+    margin-bottom: 10px;
+  }
+  .image-top-left {
+    display: none !important;
+  }
+
+.image-bubble-about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+
+  /* ---- intro-box ---- */
+  .intro-box {
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .intro-box h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+
+  .intro-box p {
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  /* ---- formula-box ---- */
+    .formula-box {
+        padding: 10px;
+        margin-left: 0;
+    }
+
+  .formula-box h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .formula-box ul {
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0 auto;
+  }
+
+  /* ---- clients image ---- */
+  .clients-image-bottom {
+    width: 90%;
+    display: block;
+    margin: 40px auto 0 auto;
+  }
+
+  /* footer & testimonial */
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    padding: 30px 10px;
+  }
+
+  .testimonial-loop {
+    flex-direction: column;
+  }
+
+  .clients-image-bottom {
+    width: 100%;
+  }
+
+  .footer-logo img {
+    width: 160px;
+  }
+
+  .footer-icons img {
+    width: 24px;
+    height: 24px;
+  }
+
+    .formula-box ul li {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+  }
+
+      .title-nex h1 {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
 }
 
 /* لپ‌تاپ / تبلت افقی */
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) and (max-width: 1279.9px) {
+
+  /* ---- intro-box ---- */
+  .intro-box {
+    padding: 0 40px;
+    text-align: left;
+  }
+
+  .intro-box h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .intro-box p {
+    font-size: 17px;
+    line-height: 1.8;
+  }
+
+  /* ---- formula-box ---- */
+  .formula-box {
+    padding: 0 40px;
+    margin-top: 30px;
+  }
+
+  .formula-box h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+
+  .formula-box ul {
+    padding-left: 25px;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  /* ---- clients image ---- */
+  .clients-image-bottom {
+    width: 85%;
+    display: block;
+    margin: 60px auto 0 auto;
+  }
+
+   /* Hero image */
+  .hero-image img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto 40px auto;
+  }
+
+  /* Grid layout (دو تصویر کنار هم) */
+  .grid-layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px 60px;
+  }
+
+  .image-bottom-left,
+  .image-top-right {
+    width: 45%;
+    position: relative;
+  }
+
+  .image-top-left {
+    width: 150%;
+    height: auto;
+    display: block;
+  }
+
+  .image-top-right img {
+    width: 115%;
+    height: auto;
+    transform: translateY(250px);
+  }
+
+    .box-shadow-bottom-left {
+    width: 150%;         /* بزرگ‌تر از 100% برای تاکید بیشتر */
+    height: auto;
+    margin-top: 40px;    /* پایین‌تر */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    .image-bottom-left {
+        transform: translateY(500px);
+    }
+
+
+  /* Shape image */
+  .shape {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+  }
+
+  /* Cap mockup image */
+  .center-image img {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 40px auto;
+  }
+
 }
 
 
 /* دسکتاپ استاندارد */
 @media (min-width: 1280px) and (max-width: 1440px) {
 
+  /* ==== Hero Image ==== */
+  .hero-image img {
+    width: 85%;
+    height: auto;
+    display: block;
+    margin: 0 auto 50px auto;
+  }
+
+  /* ==== Grid Layout ==== */
+  .grid-layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px; /* کاهش فاصله بین دو ستون */
+    padding: 40px 60px; /* کاهش فضای اطراف */
+    flex-wrap: nowrap;
+  }
+
+  .image-bottom-left,
+  .image-top-right {
+    width: 58%; /* افزایش عرض هر ستون */
+    position: relative;
+  }
+
+  .image-top-left {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+  }
+
+  .box-shadow-bottom-left {
+    width: 150%;
+    margin-top: 40px;
+    transform: translateY(200px); /* کمی بیشتر پایین‌تر */
+  }
+
+  .image-top-right img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transform: translateY(200px); 
+  }
+
+  /* ==== Shape Image ==== */
+  .shape {
+    width: 300px; /* افزایش عرض */
+    height: auto;
+    display: block;
+    margin: 40px auto;
+  }
+
+  /* ==== Cap Mockup ==== */
+  .center-image img {
+    width: 75%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+  }
+
+  /* ==== Intro Box ==== */
+  .intro-box {
+    padding: 0 60px;
+    text-align: left;
+  }
+
+  .intro-box h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .intro-box p {
+    font-size: 18px;
+    line-height: 1.9;
+  }
+
+  /* ==== Formula Box ==== */
+  .formula-box {
+    padding: 0 60px;
+    margin-top: 40px;
+  }
+
+  .formula-box h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .formula-box ul {
+    padding-left: 30px;
+    font-size: 17px;
+    line-height: 1.9;
+  }
+
+  /* ==== Clients Image ==== */
+  .clients-image-bottom {
+    width: 80%;
+    display: block;
+    margin: 80px auto 0 auto;
+  }
+
+      .digital-arrows {
+        width: 330px;
+        height: auto;
+        display: block;
+        transform: translateY(-200px);
+    }
 }
+
 
 /* دسکتاپ بزرگ */
 @media (min-width: 1441px) {
+  /* hero image */
+  .hero-image img {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto 60px auto;
+    display: block;
+  }
+
+  /* grid-layout */
+  .grid-layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 80px 100px;
+  }
+
+  .image-bottom-left,
+  .image-top-right {
+    width: 45%;
+  }
+
+  .image-top-left {
+    width: 70%;
+    height: auto;
+    display: block;
+    transform: translateY(30px);
+  }
+
+  .box-shadow-bottom-left {
+    width: 70%;
+    height: auto;
+    margin-top: 40px;
+    transform: translateY(30px);
+  }
+
+  .image-top-right img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* shape image */
+  .shape {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 50px auto;
+  }
+
+  /* center image */
+  .center-image img {
+    width: 75%;
+    max-width: 800px;
+    display: block;
+  }
+
+  /* intro box */
+  .intro-box {
+    padding: 0 100px;
+    text-align: left;
+  }
+
+  .intro-box h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+  }
+
+  .intro-box p {
+    font-size: 18px;
+    line-height: 2;
+  }
+
+  /* formula box */
+  .formula-box {
+    padding: 0 100px;
+    margin-top: 50px;
+  }
+
+  .formula-box h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .formula-box ul {
+    font-size: 18px;
+    line-height: 2;
+    padding-left: 30px;
+  }
+
+  /* clients image */
+  .clients-image-bottom {
+    width: 80%;
+    margin: 80px auto 0 auto;
+    display: block;
+  }
+
+  .digital-arrows {
+    width: 330px;         /* بزرگ‌تر از حالت پیش‌فرض */
+    height: auto;
+    display: block;
+transform: translateY(-200px);  
+  }
 
 }
+
 
 
 
