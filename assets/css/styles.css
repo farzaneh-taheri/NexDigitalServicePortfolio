@@ -562,6 +562,163 @@ body {
     z-index: -1;
 }
 
+/* پیش‌فرض - پنهان */
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+  margin-right: 20px;
+}
+
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #111;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.mobile-nav a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
+  padding: 5px 0;
+}
+
+
+/* Responsive */
+
+/* موبایل */
+@media (max-width: 480px) {
+  /* کل صفحه بدون اسکرول افقی */
+  body {
+    overflow-x: hidden;
+  }
+
+  /* هدر */
+  .container.header {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 28px;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  #mobileNav.show {
+    display: flex;
+  }
+
+  /* عنوان‌ها */
+  .contact-title,
+  .contact-title-footer {
+    font-size: 24px;
+    letter-spacing: 5px;
+    margin: 30px 0;
+  }
+
+
+  /* فوتر */
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    padding: 30px 10px;
+  }
+
+  .footer-logo img {
+    width: 160px;
+    height: auto;
+  }
+
+  .footer-icons img {
+    width: 24px;
+    height: 24px;
+  }
+
+}
+
+
+/* فبلت‌ها و موبایل‌های بزرگ */
+@media (min-width: 481px) and (max-width: 767.9px) {
+  
+    .navbar {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  #mobileNav.show {
+    display: flex;
+  }
+
+  .container.header {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+  }
+
+}
+
+/* تبلت عمودی */
+@media (min-width: 768px) and (max-width: 1023.9px) {
+
+  /* هدر */
+  .container.header {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 28px;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  #mobileNav.show {
+    display: flex;
+  }
+
+}
+
+/* لپ‌تاپ / تبلت افقی */
+@media (min-width: 1024px) and (max-width: 1279px) {
+}
+
+
+/* دسکتاپ استاندارد */
+@media (min-width: 1280px) and (max-width: 1440px) {
+
+}
+
+/* دسکتاپ بزرگ */
+@media (min-width: 1441px) {
+
+}
+
+
+
+
 
 
 
@@ -867,6 +1024,162 @@ body {
 }
 
 
+/* پیش‌فرض - پنهان */
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+  margin-right: 20px;
+}
+
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #111;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.mobile-nav a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
+  padding: 5px 0;
+}
+
+
+/* Responsive */
+
+/* موبایل */
+@media (max-width: 480px) {
+  /* کل صفحه بدون اسکرول افقی */
+  body {
+    overflow-x: hidden;
+  }
+
+  /* هدر */
+  .container.header {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 28px;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  #mobileNav.show {
+    display: flex;
+  }
+
+  /* عنوان‌ها */
+  .contact-title,
+  .contact-title-footer {
+    font-size: 24px;
+    letter-spacing: 5px;
+    margin: 30px 0;
+  }
+
+
+  /* فوتر */
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    padding: 30px 10px;
+  }
+
+  .footer-logo img {
+    width: 160px;
+    height: auto;
+  }
+
+  .footer-icons img {
+    width: 24px;
+    height: 24px;
+  }
+
+}
+
+
+/* فبلت‌ها و موبایل‌های بزرگ */
+@media (min-width: 481px) and (max-width: 767.9px) {
+  
+    .navbar {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  #mobileNav.show {
+    display: flex;
+  }
+
+  .container.header {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+  }
+
+}
+
+/* تبلت عمودی */
+@media (min-width: 768px) and (max-width: 1023.9px) {
+
+  /* هدر */
+  .container.header {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 28px;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  #mobileNav.show {
+    display: flex;
+  }
+
+}
+
+/* لپ‌تاپ / تبلت افقی */
+@media (min-width: 1024px) and (max-width: 1279px) {
+}
+
+
+/* دسکتاپ استاندارد */
+@media (min-width: 1280px) and (max-width: 1440px) {
+
+}
+
+/* دسکتاپ بزرگ */
+@media (min-width: 1441px) {
+
+}
+
+
+
 
 
 
@@ -1066,6 +1379,33 @@ body {
     bottom: 758px;
     left: 0px;
 }
+
+/* پیش‌فرض - پنهان */
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+  margin-right: 20px;
+}
+
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #111;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.mobile-nav a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
+  padding: 5px 0;
+}
+
 
 /* Responsive */
 
