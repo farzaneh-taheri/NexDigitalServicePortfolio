@@ -1401,7 +1401,7 @@ display: none;
         position: absolute;
         width: 93%;
         height: auto;
-        top: 542px;
+        top: 528px;
         left: 86px;
     }
      .gradient-image {
@@ -2616,12 +2616,26 @@ display: none;
 
     .bottom-image-service {
         position: absolute;
-top: 2558.66px;
+        top: 2708.66px;
         left: -355px;
         z-index: -1;
         width: 753.46px;
     }
-  
+
+      .order-button {
+  background-color: rgba(217, 217, 217, 0.15);
+  color: white;
+  padding: 16px 24px;
+  font-size: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.464);
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-weight: bold;
+  font-family: 'Outfit', sans-serif;
+   border-radius: 16px;
+   margin-top: 83px;
+   width: 278px;
+}
 }
 
 /* دسکتاپ بزرگ */
@@ -2808,11 +2822,26 @@ top: 2558.66px;
 
     .bottom-image-service {
         position: absolute;
-top: 2558.66px;
+        top: 2708.66px;
         left: -355px;
         z-index: -1;
         width: 753.46px;
     }
+
+      .order-button {
+  background-color: rgba(217, 217, 217, 0.15);
+  color: white;
+  padding: 16px 24px;
+  font-size: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.464);
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-weight: bold;
+  font-family: 'Outfit', sans-serif;
+   border-radius: 16px;
+   margin-top: 83px;
+   width: 278px;
+}
 }
 
 
@@ -3928,6 +3957,7 @@ top: 2558.66px;
     height: auto;
     display: block;
     position: relative;
+    left: -141px;
   }
 
   .box-shadow-bottom-left {
@@ -4004,8 +4034,8 @@ top: 2558.66px;
         width: 160px;
         height: 280px;
         display: block;
-        transform: translateY(-10px);
-        left: 1152px;
+        transform: translateY(-32px);
+        left: 1286px;
     }
 
     .title-nex {
@@ -4657,12 +4687,11 @@ body {
     }
 
     .shape-contact-form {
-        width: 245px;
-        height: 468.35px;
+        width: 283px;
+        height: 552.35px;
         top: 223%;
         right: 0;
-        transform: translateY(-20px);
-        transform: translateX(1055px);
+        transform: translateX(1104px);
         overflow-x: hidden;
         overflow-y: hidden;
     }
