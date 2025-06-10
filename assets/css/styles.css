@@ -561,33 +561,6 @@ body {
     z-index: -1;
 }
 
-/* پیش‌فرض - پنهان */
-.hamburger {
-  display: none;
-  font-size: 30px;
-  cursor: pointer;
-  color: white;
-   margin-left: 25px;
-}
-
-.mobile-nav {
-  display: none;
-  flex-direction: column;
-  gap: 10px;
-  background-color: #111;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 10px;
-}
-
-.mobile-nav a {
-  color: white;
-  text-decoration: none;
-  font-family: 'Orbitron', sans-serif;
-  padding: 5px 0;
-}
-
-
 /* Responsive */
 
 /* موبایل */
@@ -600,19 +573,6 @@ body {
     flex-direction: column;
     align-items: flex-start;
     padding: 16px;
-  }
-
-  .navbar {
-    display: none;
-  }
-
-  .hamburger {
-    display:block;
-    margin-left: 356px;
-  }
-
-  .mobile-nav {
-    display: flex;
   }
 
     img {
@@ -677,17 +637,6 @@ body {
     padding: 16px;
   }
 
-  .navbar {
-    display: none;
-  }
-
-  .hamburger {
-    display: block;
-  }
-
-  .mobile-nav {
-    display: flex;
-  }
 
   .contact-btn {
     margin: 20px 0 0 0;
@@ -1646,33 +1595,6 @@ display: none;
 }
 
 
-/* پیش‌فرض - پنهان */
-.hamburger {
-  display: none;
-  font-size: 30px;
-  cursor: pointer;
-  color: white;
-  margin-right: 20px;
-}
-
-.mobile-nav {
-  display: none;
-  flex-direction: column;
-  gap: 10px;
-  background-color: #111;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 10px;
-}
-
-.mobile-nav a {
-  color: white;
-  text-decoration: none;
-  font-family: 'Orbitron', sans-serif;
-  padding: 5px 0;
-}
-
-
 /* Responsive */
 
 /* موبایل */
@@ -1686,26 +1608,6 @@ display: none;
     align-items: center;
     gap: 10px;
     padding: 10px;
-  }
-
-  .navbar {
-    display: none;
-  }
-
-  .hamburger {
-    display:block;
-    margin-left: 356px;
-  }
-
-  #mobileNav {
-    display: none;
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px;
-  }
-
-  #mobileNav.show {
-    display: flex;
   }
 
   .section-title {
@@ -1850,17 +1752,6 @@ display: none;
 /*تبلت و موبایل‌های بزرگ */
 @media (min-width: 481px) and (max-width: 767.9px) {
   
-    .navbar {
-    display: none;
-  }
-
-  .hamburger {
-    display: block;
-  }
-
-  #mobileNav.show {
-    display: flex;
-  }
 
    .section-title {
     font-size: 24px;
@@ -2009,17 +1900,6 @@ display: none;
 /* تبلت عمودی */
 @media (min-width: 768px) and (max-width: 1023.9px) {
 
-    .navbar {
-    display: none;
-  }
-
-  .hamburger {
-    display: block;
-  }
-
-  #mobileNav.show {
-    display: flex;
-  }
 
    .section-title {
     font-size: 70px;
@@ -2172,13 +2052,6 @@ display: none;
 
 /* لپ‌تاپ / تبلت افقی */
 @media (min-width: 1024px) and (max-width: 1279.9px) {
-  .hamburger {
-    display: none;
-  }
-
-  .mobile-nav {
-    display: none !important;
-  }
 
   .navbar {
     display: flex;
@@ -2952,31 +2825,6 @@ display: none;
     left: 0px;
 }
 
-/* پیش‌فرض - پنهان */
-.hamburger {
-  display: none;
-  font-size: 30px;
-  cursor: pointer;
-  color: white;
-  margin-right: 20px;
-}
-
-.mobile-nav {
-  display: none;
-  flex-direction: column;
-  gap: 10px;
-  background-color: #111;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 10px;
-}
-
-.mobile-nav a {
-  color: white;
-  text-decoration: none;
-  font-family: 'Orbitron', sans-serif;
-  padding: 5px 0;
-}
 
 
 /* Responsive */
@@ -2994,19 +2842,6 @@ display: none;
     padding: 10px;
   }
 
-  .navbar {
-    display: none;
-  }
-
-
-  .hamburger {
-    display:block;
-    margin-left: 356px;
-  }
-
-  #mobileNav.show {
-    display: flex;
-  }
   img {
     width: 30%;
     height: auto;
@@ -3146,21 +2981,7 @@ display: none;
         width: 100%;
         height: auto;
     }
-  /* Navbar */
-  .navbar {
-    display: none;
-  }
 
-  .hamburger {
-    display: block;
-    font-size: 28px;
-    margin-left: auto;
-    margin-right: 20px;
-  }
-
-  #mobileNav.show {
-    display: flex;
-  }
 
   /* Header */
   .container.header {
@@ -3328,20 +3149,6 @@ display: none;
     gap: 10px;
   }
 
-  .navbar {
-    display: none;
-  }
-
-  .hamburger {
-    display: block;
-    font-size: 28px;
-    margin-left: auto;
-    margin-right: 20px;
-  }
-
-  #mobileNav.show {
-    display: flex;
-  }
 
   /* hero text and image */
   .hero-container-about {
@@ -4113,33 +3920,6 @@ display: none;
         z-index: -1;
       }
 
-/* پیش‌فرض - پنهان */
-.hamburger {
-  display: none;
-  font-size: 30px;
-  cursor: pointer;
-  color: white;
-  margin-right: 20px;
-}
-
-.mobile-nav {
-  display: none;
-  flex-direction: column;
-  gap: 10px;
-  background-color: #111;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 10px;
-}
-
-.mobile-nav a {
-  color: white;
-  text-decoration: none;
-  font-family: 'Orbitron', sans-serif;
-  padding: 5px 0;
-}
-
-
 
 
 
@@ -4159,18 +3939,6 @@ display: none;
     gap: 10px;
   }
 
-  .navbar {
-    display: none;
-  }
-
-  .hamburger {
-    display:block;
-    margin-left: 356px;
-  }
-
-  #mobileNav.show {
-    display: flex;
-  }
 
   /* فرم تماس */
   .contact-box-v1 {
@@ -4250,19 +4018,6 @@ display: none;
 /* فبلت‌ها و موبایل‌های بزرگ */
 @media (min-width: 481px) and (max-width: 767.9px) {
   
-    .navbar {
-    display: none;
-  }
-
-  .hamburger {
-    display: block;
-  }
-
-  #mobileNav.show {
-    display: flex;
-  }
-
-
   .contact-box-v1 {
     flex-direction: column;
     align-items: center;
@@ -4367,21 +4122,6 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-  }
-
-  .navbar {
-    display: none;
-  }
-
-  .hamburger {
-    display: block;
-    font-size: 28px;
-    margin-left: auto;
-    margin-right: 20px;
-  }
-
-  #mobileNav.show {
-    display: flex;
   }
 
   .contact-form-v1 {
