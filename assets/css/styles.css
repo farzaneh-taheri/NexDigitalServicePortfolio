@@ -4570,6 +4570,21 @@ flex: 1;
   .gradient-new-contact {
     display: none; /* تو موبایل باعث اسکرول اضافی می‌شن */
   }
+
+  .contact-title {
+        font-size: 23px;
+        letter-spacing: 5px;
+        margin: 0 !important;
+        padding: 10px;
+    }
+    .contact-title-footer {
+      font-size: 10px;
+    }
+  
+        .contact-form-v1 {
+          border: 1px solid #ffffff;
+          border-radius: 30px;
+        }
 }
 
 /* فبلت‌ها و موبایل‌های بزرگ */
