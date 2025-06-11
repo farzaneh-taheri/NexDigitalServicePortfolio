@@ -3329,43 +3329,53 @@ flex: 1;
   }
 
     .grid-layout {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-    padding: 20px 10px;
-    gap: 20px;
-  }
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0;
+        padding: 0;
+        flex-wrap: nowrap;
+        height: 260px;
+    }
 
-  .image-bottom-left,
-  .image-top-right {
-    position: static;
-    width: 100%;
-    text-align: center;
-  }
+.image-bottom-left, .image-top-right {
+        width: 58%;
+        position: relative;
+        transform: translateX(-86px);
+    }
+        .image-top-right img {
+        width: 120%;
+        height: auto;
+        display: block;
+        transform: translateX(-86px);
+    }
 
-  .image-bottom-left img,
-  .image-top-right img {
-    max-width: 100%;
-    height: auto;
-    position: static;
-    display: block;
-    margin: 0 auto;
-  }
+    .box-shadow-bottom-left {
+        width: 150%;
+        margin-top: 40px;
+        transform: translateX(-101px);
+        top: -17px;
+    }
 
-  .box-shadow-bottom-left {
-    margin-bottom: 10px;
-  }
-  .image-top-left {
-    display: none !important;
-  }
+    .image-top-left {
+        width: 100%;
+        height: auto;
+        display: block;
+        position: relative;
+    }
+.image-top-right {
+        position: absolute;
+        top: 149px;
+        right: -80px;
+        transform: translateX(17px);
+    }
 
 .image-bubble-about {
   width: 100%;
   display: flex;
   justify-content: center;
   padding: 20px 10px;
+  margin-bottom: 0;
 }
 
 .hero-text-about h1 {
@@ -3375,8 +3385,8 @@ flex: 1;
 }
 
 .title-nex {
-  text-align: center;
-  margin: 0 auto;
+  margin: 0;
+  padding-left: 20px;
 }
 
 .title-nex h1 {
@@ -3392,7 +3402,7 @@ flex: 1;
 }
 
 .intro-box {
-  text-align: center;
+  text-align: normal;
 }
 
 .intro-box h2 {
@@ -3411,15 +3421,17 @@ flex: 1;
   margin: 10px auto;
 }
 
-.center-image img {
-  width: 100%;
-  height: auto;
-  margin: 10px 0;
-}
+    .center-image img {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+        margin-left: 27px;
+    }
 .formula-box {
   width: 100%;
   padding: 20px;
   text-align: left;
+  margin-left: 55px;
 }
 
 .formula-box h2 {
@@ -3441,7 +3453,78 @@ flex: 1;
     line-height: 1.6;
   }
 
+  
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 10px;
+  }
 
+  .footer-logo img {
+    width: 140px;
+  }
+
+  .footer-icons img {
+    width: 24px;
+    height: 24px;
+  }
+
+
+  .hero-container-about {
+    display: flex;
+    align-items: normal;
+    /* justify-content: space-between; */
+    /* width: 100%; */
+    /* max-width: 1200px; */
+    /* margin: 0 auto 100px auto; */
+    margin-bottom: 0 !important;
+}
+
+.hero-image img {
+  width: 135% !important;
+  height: auto !important;
+  margin-top: 35px !important;
+}
+
+.hero-section-about {
+  padding: 0;
+  margin: 0;
+}
+
+    .hero-text-about h1 {
+        font-size: 20px;
+        line-height: 1.4;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .nex-intro {
+    color: white;
+    padding: 60px 20px 0 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+    .clients-image-bottom {
+        width: 88% !important;
+        position: absolute;
+        top: 11px;
+        left: 26px;
+        z-index: -1;
+    }
+
+    .testimonial-loop-wrapper {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.section-title.our-clients {
+        top: -40px;
+    }
 }
 
 /* فبلت‌ها و موبایل‌های بزرگ */
