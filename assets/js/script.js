@@ -273,16 +273,20 @@ sliderButtons.forEach((btn, index) => {
           rows.forEach(r => r.classList.remove("active"));
           // اضافه کردن به همینی که کلیک شد
           row.classList.add("active");
+
+                          // اسکرول به بخش خاص
+                document.querySelector("#target-section").scrollIntoView({
+                    behavior: "smooth"
+                });
         });
       });
 
       // کلیک روی فلش
       arrow.addEventListener("click", () => {
         // به بخشی از صفحه بریم (آیدی رو بعدا جایگزین کن)
-        document.querySelector("#target-section").scrollIntoView({
-          behavior: "smooth"
-        });
+        window.location.href = 'contact.html';
       });
+
     });
   });
 
