@@ -127,11 +127,11 @@ window.addEventListener('load', setup);
       "/assets/images/Rectangle 9.png",
       "/assets/images/Rectangle 11.png",
       "/assets/images/Brochure_Mockup_1 copy.jpg",
-      "/assets/images/Rectangle 8.png",
+      "/assets/images/LOGOE.jpg",
       "/assets/images/Rectangle 10.png",
-      "/assets/images/Rectangle 8.png",
-      "/assets/images/Rectangle 9.png",
-      "/assets/images/Rectangle 11.png"
+      "/assets/images/Untitled-1WEB.jpg",
+      "/assets/images/TEST LOGO1..jpg",
+      "/assets/images/Untitled-1WEB2.jpg"
     ],
     2: [
       "/assets/images/set2-1.png",
